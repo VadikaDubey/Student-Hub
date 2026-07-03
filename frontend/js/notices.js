@@ -1,5 +1,5 @@
 async function loadNotices() { 
-    const response = await fetch("../backend/data/notices.json");
+    const response = await fetch("/Student-Hub/backend/data/notices.json");
     const notices = await response.json();
 
     const noticesContainer = document.getElementById("notices-container");
