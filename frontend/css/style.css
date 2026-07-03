@@ -1,100 +1,14 @@
-body {
-    margin: 0;
-    font-family: Inter, Arial, sans-serif;
-    background: #f4f6f9;
+body{
+    font-family: Arial, sans-serif;
+    margin:50px;
 }
-
-.container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 2rem;
+.card{
+    border:2px solid #d4d41b;
+    padding:30px;
+    margin-bottom:30px;
+    border-radius:20px;
 }
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.hero-card {
-    background: linear-gradient(
-        135deg,
-        #2563eb,
-        #1e40af
-    );
-
-    color: white;
-
-    padding: 2rem;
-
-    border-radius: 20px;
-
-    margin: 2rem 0;
-}
-
-.card {
-    background: white;
-
-    border-radius: 16px;
-
-    padding: 1.5rem;
-
-    margin-bottom: 1.5rem;
-
-    box-shadow:
-        0 4px 12px rgba(0,0,0,0.08);
-}
-
-.section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.club-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(150px, 1fr));
-
-    gap: 1rem;
-}
-
-.club {
-    background: #eef2ff;
-
-    padding: 1rem;
-
-    border-radius: 12px;
-
-    text-align: center;
-
-    cursor: pointer;
-
-    transition: 0.2s;
-}
-
-.club:hover {
-    transform: translateY(-3px);
-}
-
-.link-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(180px, 1fr));
-
-    gap: 1rem;
-}
-
-.link-grid button {
-    padding: 1rem;
-
-    border: none;
-
-    border-radius: 12px;
-
-    background: #e5e7eb;
-
-    cursor: pointer;
+button{
+    padding:10px;
+    margin-top:10px;
 }
