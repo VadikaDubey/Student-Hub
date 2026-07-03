@@ -1,5 +1,5 @@
 async function loadClubs() { 
-    const response = await fetch("../../backend/data/clubs.json");
+    const response = await fetch("../backend/data/clubs.json");
     const clubs = await response.json();
 
     const clubsContainer = document.getElementById("clubs-container");
